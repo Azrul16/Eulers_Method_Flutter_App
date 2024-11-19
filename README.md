@@ -40,10 +40,15 @@ To get started with the Euler's Method Solver App, follow these steps:
    ```bash
    git clone https://github.com/Azrul16/eulers-method-solver-app.git
 
-1. **Step 2: Navigate to the Project Directory**
+2. **Step 2: Navigate to the Project Directory**
    ```bash
-   git clone https://github.com/Azrul16/eulers-method-solver-app.git
+   cd eulers-method-solver-app
    ```
-   1. **Clone the Repository**
+3. **Step 3: Install Flutter Dependencies**
    ```bash
-   git clone https://github.com/Azrul16/eulers-method-solver-app.git
+   flutter pub get
+   ```
+4. **Step 4: Run the app**
+   ```bash
+   flutter run
+   ```
