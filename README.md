@@ -39,3 +39,11 @@ To get started with the Euler's Method Solver App, follow these steps:
 1. **Clone the Repository**
    ```bash
    git clone https://github.com/Azrul16/eulers-method-solver-app.git
+
+1. **Step 2: Navigate to the Project Directory**
+   ```bash
+   git clone https://github.com/Azrul16/eulers-method-solver-app.git
+   ```
+   1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/Azrul16/eulers-method-solver-app.git
