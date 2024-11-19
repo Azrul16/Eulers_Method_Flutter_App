@@ -71,3 +71,30 @@ To get started with the Euler's Method Solver App, follow these steps:
    ```bash
    flutter run
    ```
+
+
+Download Android Studio or Visual Studio with Flutter editor plugins. After that, open the project and install dependencies from pubspec.yaml by running the following command:
+```bash
+$ flutter packages get
+```
+
+## Built With
+
+This software uses the following packages:
+
+- [Flutter](https://flutter.dev/)
+- [Dart](https://dart.dev/)
+- [Visual Studio Code](https://code.visualstudio.com/)
+
+## Related
+
+[Daruma - Backend](https://github.com/AdrianLopezGue/daruma-backend) - Backend part of Daruma.
+
+## License
+
+[GNU Affero General Public License v3 (AGPL)](https://www.gnu.org/licenses/agpl-3.0.en.html)
+
+## Contact
+
+> GitHub - [@Azrul](https://github.com/Azrul16) 
+> LinkedIn - [Azrul Amaline](https://www.linkedin.com/in/azrul-amaline/)
