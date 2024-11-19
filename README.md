@@ -1,36 +1,55 @@
-# Euler's Method Solver App
+# Euler's Method App
 
-## Overview
-
-The **Euler's Method Solver App** is a Flutter application designed to solve real-world problems utilizing Euler's Method. The app allows users to visualize solutions through interactive graphs and offers comprehensive tools to explore various predefined problems while customizing parameters for a dynamic problem-solving experience.
+Euler's Method App is a Flutter-based application designed to solve mathematical problems using Euler's numerical method. The app supports multiple platforms, including Android, iOS, web, and desktop environments.
 
 ## Features
 
-### Predefined Problems
+- Numerical solutions to differential equations using Euler's method.
+- Platform-specific UI designs and functionalities.
+- Multiple solvers for specific problems:
+  - Population growth solver.
+  - Projectile motion solver.
+  - RC circuit solver.
+  - Thermal dynamics solver.
+  - Chemical reaction solver.
+- Multi-platform support: Android, iOS, web, Linux, macOS, and Windows.
 
-The application includes several real-world scenarios, including:
+## Technologies Used
 
-- **Population Growth**
-- **Chemical Reaction**
-- **Projectile Motion**
-- **RC Circuit**
-- **Thermal Dynamics**
+- **Flutter**: Framework for building natively compiled applications.
+- **Dart**: Programming language for the application logic.
+- Platform-specific configurations for iOS (Xcode), Android (Gradle), and desktop environments.
 
-### Graph Visualization
+## Project Structure
 
-- Interactive graphs are generated using [fl_chart](https://pub.dev/packages/fl_chart), allowing users to visualize the results of their computations effectively.
+- **`lib/`**: Core application code.
+  - `main.dart`: Entry point of the application.
+  - `homepage.dart`: Main UI layout.
+  - `problemsolver.dart`: Logic for managing problem-solving workflows.
+  - `solvers/`: Contains specific solver implementations.
+    - `chemical_reaction_solver.dart`
+    - `population_growth_solver.dart`
+    - `projectile_motion_solver.dart`
+    - `rc_circuit_solver.dart`
+    - `thermal_dynamics_solver.dart`
+- **`test/`**: Contains unit and widget tests.
+  - `widget_test.dart`: Example widget test.
+- **Platform-specific directories**:
+  - `android/`: Android build and configuration files.
+  - `ios/`: iOS-specific assets and configurations.
+  - `web/`: Web-specific files (e.g., `index.html`).
+  - `linux/`, `macos/`, `windows/`: Desktop configurations and assets.
 
-### Custom Input Parameters
+## Installation and Setup
 
-- Users can modify key parameters such as:
-  - **Step size**
-  - **Number of steps**
+### Prerequisites
 
-This flexibility enables users to tailor their solutions to specific needs and explore the effects of different inputs.
-
-### Readable Problem Descriptions
-
-- Each problem comes with a clear and concise description, along with the solution displayed in an easy-to-read format.
+- Install [Flutter](https://flutter.dev/) and set up your development environment.
+- Ensure platform-specific dependencies are installed:
+  - Android: Android Studio with SDK setup.
+  - iOS: Xcode for macOS.
+  - Web: A modern web browser.
+  - Desktop: Required build tools for Linux, macOS, or Windows.
 
 ## Getting Started
 
